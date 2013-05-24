@@ -1,0 +1,59 @@
+﻿/* Styles my preciousss */
+/* *********************************************************************************************
+** Animation Keyframe sequences
+*/
+@-webkit-keyframes flipover {
+  0% {
+    -webkit-transform: translateZ(0) rotate3d(0, 1, 0, 0deg);
+  }
+  50% {
+    -webkit-transform: translateZ(10px) rotate3d(0, 1, 0, -90deg);
+  }
+  100% {
+    -webkit-transform: translateZ(0) rotate3d(0, 1, 0, -180deg);
+  }
+}
+@-webkit-keyframes flipback {
+  0% {
+    -webkit-transform: translateZ(0) rotate3d(0, 1, 0, -180deg);
+  }
+  50% {
+    -webkit-transform: translateZ(10px) rotate3d(0, 1, 0, -270deg);
+  }
+  100% {
+    -webkit-transform: translateZ(0) rotate3d(0, 1, 0, -360deg);
+  }
+}
+/* *********************************************************************************************
+** 
+*/
+.nodelay {
+  -webkit-animation-delay: 0 !important;
+}
+div.tessellated {
+  display: inline-block;
+  position: relative;
+  padding: 0;
+  border-width: 0;
+  white-space: nowrap;
+  line-height: 0;
+  -webkit-perspective: 500px;
+  -webkit-perspective-origin: 50% 50%;
+  -webkit-transform-style: preserve-3d;
+}
+div.tile {
+  z-index: 1;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+  border-width: 0;
+  line-height: 0;
+  background-color: white;
+  -webkit-animation: flipover 1s linear 1;
+  -webkit-animation-play-state: paused;
+  -webkit-backface-visibility: hidden;
+  -webkit-animation-fill-mode: both;
+}
