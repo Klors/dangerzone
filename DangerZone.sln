@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DangerZone", "DangerZone\DangerZone.csproj", "{DA9AAA0C-51AE-4A4B-8D14-F975BE3F450D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DangerZone.Tests", "DangerZone.Tests\DangerZone.Tests.csproj", "{98AB267B-0B71-47FD-894C-4A90B610C563}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DA9AAA0C-51AE-4A4B-8D14-F975BE3F450D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA9AAA0C-51AE-4A4B-8D14-F975BE3F450D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA9AAA0C-51AE-4A4B-8D14-F975BE3F450D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA9AAA0C-51AE-4A4B-8D14-F975BE3F450D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98AB267B-0B71-47FD-894C-4A90B610C563}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98AB267B-0B71-47FD-894C-4A90B610C563}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98AB267B-0B71-47FD-894C-4A90B610C563}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98AB267B-0B71-47FD-894C-4A90B610C563}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
