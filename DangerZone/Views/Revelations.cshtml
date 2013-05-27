@@ -3,10 +3,14 @@
     Layout = "~/Views/Shared/DangerZoneLayout.cshtml";
 }
 
-<h2>Revelations</h2>
+@*<h2>Revelations</h2>*@
 
 <section>
-    <input type="button" value="Let's tessellate..." onclick="dz.t.Flip();" />
-    <br />
-    <img alt="Test Image" src="~/Content/img/darthtests.jpg" class="tessellate" />
+    <div>
+        <input type="button" value="Let's tessellate..." onclick="dz.t.Flip();" />
+    </div>
+    <div>
+        <img alt="Test Image" src="~/Content/img/darthtests.jpg" class="tessellate" />
+        <img alt="Test Image" src="~/Content/img/darthtests.jpg" class="tessellate" data-tessellate-type="fixed" data-tessellate-size="50" data-tessellate-altimg="sheldon.jpg" />
+    </div>
 </section>
